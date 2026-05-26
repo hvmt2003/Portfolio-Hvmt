@@ -4,6 +4,7 @@ export const site = {
   title: "Software Development Engineer Intern",
   tagline:
     "Full-stack engineer building performant React applications, scalable backends, and applied ML systems.",
+  availability: "Open to full-time opportunities",
   location: "IIIT Surat · India",
   email: "harshvardhanmaniii@gmail.com",
   phone: "+91 9125300483",
@@ -23,7 +24,7 @@ export const site = {
   },
   highlights: [
     { label: "CGPA", value: "7.68" },
-    { label: "Projects", value: "3+" },
+    { label: "Projects", value: "7+" },
     { label: "DSA Problems", value: "350+" },
   ],
   nav: [

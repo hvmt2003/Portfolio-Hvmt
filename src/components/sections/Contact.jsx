@@ -44,7 +44,7 @@ export default function Contact() {
       <SectionHeading
         label="Contact"
         title="Let's connect"
-        description="Open to software engineering, frontend, and ML-focused opportunities."
+        description="Open to full-time SDE, frontend and ML-focused roles."
       />
       <div className="card-surface rounded-2xl p-6 md:p-8">
         <div className="grid gap-4 sm:grid-cols-2">
