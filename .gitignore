@@ -22,6 +22,8 @@
 
 # misc
 .DS_Store
+Thumbs.db
+Desktop.ini
 *.pem
 
 # debug
@@ -30,12 +32,33 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files (secrets)
 .env*
+!.env.example
 
 # vercel
 .vercel
 
-# typescript
+# typescript (if added later)
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE / editor
+.idea/
+*.swp
+*.swo
+
+# Cursor (local AI workspace)
+.cursor/
+
+# --- Project: local-only / duplicate sources (site uses public/*) ---
+# Original resume in repo root; deployed file is public/resume.pdf
+/Resume_Harshvardhan_Mani_Tripathi.pdf
+/Harshvardhan_Mani_Tripathi_Resume.pdf
+
+# Original profile images; deployed file is public/profile.png
+/HMT PIC.jpg
+/HMT PIC.png
+
+# Temp file from resume text extraction (not needed in repo)
+/_resume_extract.txt
